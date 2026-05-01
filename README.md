@@ -1,4 +1,13 @@
-# 🔎 Reconnaissance Project - scanme.nmap.org
+# 🔍 Reconnaissance & Vulnerability Assessment Report
+### Target: scanme.nmap.org
+
+## Executive Summary
+
+This project demonstrates a reconnaissance and vulnerability assessment conducted on an authorized target (scanme.nmap.org).
+
+The assessment identified multiple exposed services, including SSH and HTTP, along with potential vulnerabilities such as Slowloris Denial-of-Service susceptibility and Apache misconfigurations.
+
+The findings highlight how publicly accessible services can increase attack surface and emphasize the importance of proper hardening and monitoring.
 
 A hands-on cybersecurity project focused on reconnaissance, service analysis, and vulnerability assessment using real-world tools such as Nmap, Shodan, and OSINT techniques.
 ## Objective
@@ -95,4 +104,21 @@ Based on the findings, the following security improvements are recommended:
 ## Final Note
 This project reflects a structured and analytical approach to reconnaissance, emphasizing not only tool usage but also critical thinking and security oriented analysis.
 
+
+This project demonstrates the importance of reconnaissance as the first phase of any cyber attack or defense strategy.
+
+Even a simple scan can reveal valuable information about exposed services and potential vulnerabilities.
+
+Future work could include:
+- Deeper vulnerability exploitation in a controlled lab
+- Automated scanning scripts
+- Expanding OSINT techniques
+
+---
+## Disclaimer
+
+This project was conducted on an authorized target (scanme.nmap.org) for educational purposes only.
+
 Screenshots are included to support the findings and provide evidence of the identified services and vulnerabilities.
+
+
