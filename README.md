@@ -19,7 +19,7 @@ An Nmap scan was performed to identify open ports and services on the target.
 ```bash
 nmap -sV -sC scanme.nmap.org
 ```
-![Nmap Scan](images/nmap_scan.png)
+![Nmap Scan](Screenshot_1.png)
 ### Key Findings
 * Port 22 – SSH (OpenSSH 6.6.1p1)
 * Port 80 – HTTP (Apache 2.4.7)
@@ -50,7 +50,7 @@ The scan indicates that the target is likely vulnerable to this attack (CVE-2007
 Although this vulnerability does not allow direct system compromise, it can significantly impact availability, which is a critical aspect of security.
 The following output from the Nmap vulnerability scan highlights a potential Slowloris Denial-of-Service (DoS) vulnerability affecting the HTTP service:
 
-![Slowloris Vulnerability](images/vuln_scan.png)
+![Slowloris Vulnerability](Screenshot_2.png)
 
 This result suggests that the server may be vulnerable to resource exhaustion attacks, which could impact service availability.
 ## Shodan Insights
