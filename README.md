@@ -61,14 +61,14 @@ Based on the findings, two representative vulnerabilities were selected for anal
 One of the identified potential vulnerabilities is related to HTTP  Request Smuggling. This vulnerability occurs when different servers interpret HTTP requests inconsistently, allowing an attacker to inject malicious requests into the communication chain. Successful exploitation may lead to bypassing security controls, session hijacking, or cache poisoning. This vulnerability is typically dependent on specific server configurations (such as reverse proxies) and may not be exploitable in all environments.
 The following Shodan result highlights a potential HTTP Request Smuggling vulnerability affecting Apache servers: 
 
-![HTTP Request Smuggling](images/shodan1.png)
+![HTTP Request Smuggling](Screenshot_3.png)
 
 This vulnerability may allow attackers to manipulate HTTP requests and bypass security mechanisms under specific configurations.
 ### Vulnerability 2 - Buffer Overflow / Memory Corruption
 Another identified issue involves a potential buffer overflow vulnerability in Apache modules. Such vulnerabilities may allow an attacker to write data beyond the allocated memory boundaries, potentially leading to application crashes or even remote code execution. However, successful exploitation usually depends on specific modules and configurations being enabled on the server.
 The following Shodan result indicates a potential buffer overflow vulnerability in Apache modules:
 
-![Buffer Overflow Vulnerability](images/shodan2.png)
+![Buffer Overflow Vulnerability](Screenshot_4.png)
 
 Such vulnerabilities may lead to memory corruption, potentially resulting in application crashes or remote code execution depending on the environment.
 Although the identified vulnerabilities affect newer Apache versions, the presence of an outdated version (2.4.7) may still indicate potential exposure to other unpatched vulnerabilities. 
