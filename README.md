@@ -52,7 +52,7 @@ From an attacker’s perspective, the initial focus would likely be on the HTTP 
 A realistic attack path may involve identifying web-based vulnerabilities or misconfigurations to gain an initial foothold, followed by lateral movement or persistence via services such as SSH.
 The exposed SSH service would be considered a high-value target due to its potential for direct system access, while filtered services (e.g., port 31337) may indicate hidden entry points worth further investigation.
 ## Vulnerability Assessment - Nmap Findings
-### Nmap Findings – Slowloris (DoS)
+### Nmap Findings - Slowloris (DoS)
 A vulnerability scan using Nmap NSE scripts identified a potential Slowloris Denial-of-Service (DoS) vulnerability affecting the HTTP service.
 Slowloris works by maintaining multiple partial HTTP connections to the server, exhausting available resources and preventing legitimate users from accessing the service.
 The scan indicates that the target is likely vulnerable to this attack (CVE-2007-6750).
